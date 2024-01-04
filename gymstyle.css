@@ -1,0 +1,135 @@
+*{
+    animation-duration: 1.5s;
+    text-decoration:none;
+    }
+    body {
+    background-image:url("images/backgroud.jpg");
+    margin:0px;
+    padding:0px;
+     width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-repeat:no-repeat;
+    background-size:100rem,200rem;
+    }
+    html{
+            scroll-behavior: smooth;
+        }
+    .header {
+    height:30px;
+    padding:40px;
+    background-color:Rgb(110,20,05);
+    text-align:center;
+    color:black;
+    }
+    .word{
+    word-spacing:30px;
+    float:right;
+    
+    }
+    .join{
+        color: tomato;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif
+    } 
+    .article{
+    height:28rem;
+    padding:10px;
+    text-align:center;
+    font-family:verdana;
+    }
+    img{
+    border-radius:50%;
+    }
+    .section
+    {
+    color:rgba(72,736,63,836);
+    text-align:left;
+    font-weight:20px;
+    list-style-type:square;
+    }
+    .footer1 {
+    background-color:gray;
+    height:20px;
+    padding:10px 0;
+    text-align:center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    }		
+    .about{
+        font-size: x-large;
+        font-weight: bolder;
+        color:bisque;
+        
+    }
+    .table1{
+        padding: 5px;
+        word-spacing: 10px;
+        border: 5px solid red;
+        font-size: larger;
+        text-align: center;
+        background-image: url(images/4.jpg);
+    }
+    .table2{
+        background-image: url(images/2.jpg);
+color: antiquewhite;
+padding: 19px;
+word-spacing: 5px;
+border-spacing:15px ;
+text-align: center;
+border-color: yellowgreen;
+text-align: center;
+    }
+    .thank{
+        color:deeppink;
+        font-size: xx-large;
+    }				
+    .footer {
+        background-color:gray;
+        height:20px;
+        padding:10px 0;
+        text-align:center;
+        justify-content: center;
+    }	
+    b{
+    float:left;
+    font-size:40px;
+    color:rgba(796,87,6,58);
+    }
+    h4{
+    color:white;
+    }
+    a:visited{
+                    color: rgb(174, 255, 0);
+                 }
+                a:link{
+                    color: rgb(43, 226, 211);
+                }
+                a:hover{
+                    color: rgb(679, 139, 0);
+                }
+                a:active{
+                    color: chocolate;
+                }
+
+                form{
+                    border: 1px solid black;
+                    height:auto;
+                    width:300px;
+                    color:white;
+                    background-color: rgb(196, 10, 205,7);
+                    border-radius:10px;
+                    font-weight:bold;
+                    }
+                    button{
+                    color:red;
+                    background-color:skyblue;
+                    font-weight:bold;
+                    border-radius:20px;
+                    padding:10px;
+                    }
